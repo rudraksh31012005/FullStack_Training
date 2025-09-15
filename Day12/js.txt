@@ -1,0 +1,24 @@
+Operators:
+
+Arithmetic Operators (+,-,*,/,%,**)
+Assignment Operators (=,+=,-=,*=,/=,%=,**=)
+Relational Operators (==,===,!=,!==,<,>,<=,>=)
+Logical Operators (&&,||,!)
+Bitwise Operators (&,|,^,<<,>>)
+
+== - directly checks the value and didn't consider datatype
+=== - it checks the value and datatype both for true and false
+
+short circuit evaluation
+
+0 , "" , false , undefine , null - false
+
+conditional statements:
+
+if else , switch
+
+functions
+
+loops:
+
+for , while , dowhile

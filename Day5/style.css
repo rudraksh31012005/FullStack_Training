@@ -1,0 +1,40 @@
+/* .container{
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 100px;
+    
+}
+#parent-container{
+    display: flex;
+    justify-content: space-between;
+}
+#search{
+    display: flex;
+    justify-content: space-between;
+} */
+input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

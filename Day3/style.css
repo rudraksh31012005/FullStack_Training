@@ -1,0 +1,19 @@
+#packet {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+#container {
+    height: 100px;
+    background-color: red;
+}
+
+#box {
+    height: 100px;
+    background-color: aqua;
+}
+
+.A {
+    height: 100px;
+    background-color: darkgreen;
+}

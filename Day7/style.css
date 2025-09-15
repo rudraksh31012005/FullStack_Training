@@ -1,0 +1,136 @@
+/* #container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+} */
+
+/* #container,#box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+} */
+
+/* never use 2 parents together like given below */
+/* Descendant Selectors */
+/* #container,#container2 .para,#para1{
+    font-size: 30px;
+    color: blue;
+} */
+
+/* Child Selectors */
+/* div > p{
+    font-size: 30px;
+    color: blue;
+} */
+
+/* Adjacent Selectors */
+/* span+p{
+    font-size: 30px;
+    color: blue;
+} */
+
+/* General Sibling Selectors */
+/* h1~p{
+    font-size: 30px;
+    color: red;
+} */
+
+/* Pseudo Selectors */
+/* pseudo classes */
+/* pseudo elements */
+
+/* pseudo classes - focus , hover , link , active , visited  , nth-child , last-child , first child , empty */
+
+/* pseudo elements - before , after , placeholder , selection */
+
+/* input{
+    outline: none;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px #e0e0e0;
+}
+
+input:focus{
+    background-color: cadetblue;
+    color: beige;
+    border: 3px solid red;
+    color: blue;
+} */
+
+/* #container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: 2s ease-in-out;
+}
+
+#container:hover{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 50%;
+} */
+
+a{
+    font-size: 30px;
+}
+
+/* a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: green;
+} */
+
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: blue;
+} */
+
+/* link --> visited --> hover --> active */
+
+/* button{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    font-size: 30px;
+}
+
+button:active{
+    background-color: orange;
+    color: white;
+} */
+
+/* li:last-child{
+    color: red;
+} */
+
+/* p:last-child{
+    background-color: aqua;
+}
+
+p:first-child{
+    background-color: red;
+}
+ */
+
+ /* 2a+b  */
+
+li:nth-child(2n+2){
+    background-color: red;
+}

@@ -1,0 +1,29 @@
+V8 engine
+Javascript is synchronous language but sometimes works as asynchronous.
+Scripting Language - refers to interpreted language.
+Javascript is also a single threaded language.
+Script tag always be placed at the end of the body tag.
+
+three types of keywords - var , let , const
+var-
+let,const-ES6
+
+variable declaration:
+first letter should be either alphabet,underscore,dollar.
+
+snake case - first_name - env
+camel case - firstName , dayOfTheYear - variables & functions
+pascle case - FirstName - react component
+
+difference between var , let , const
+
+var - the variable declared with var can be redeclared and can be reassign
+let - the variable declared with let cannot be redeclared but can be reassign
+const - the variable declared with const cannot be redeclared and cannot be reassigned
+
+2 Types of Data types-
+1. Primitive data types - number , string , boolean , undefined , symbol
+2. Ref type - array , objects ,date
+
+
+Array In JS: collection of different type of data types.
